@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display:wght@700&family=Roboto+Condensed:wght@700&family=Teko:wght@500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Teko;
+    background-color: #add8e6;
+}
+
+
+.marl {
+    text-align: center;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 50px;
+    height: 30vh;
+}
+
+.name {
+    font-size: 20px;
+    border-color: transparent;
+    border-bottom: 2px solid black;
+    border-style: ridge;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+.password {
+    outline: none;
+    font-size: 20px;
+    border-color: transparent;
+    border-bottom: 2px solid black;
+    border-style: ridge;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.btn {
+    text-align: center;
+    font-size: 30px;
+    height: 9vh;
+    width: 8vw;
+    border-radius: 5px;
+    background-color: #abb6ec;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffb6c1;
+}
+
+
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear {
+  display: none;
+}
+
+@media only screen
+and (min-device-width : 726px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: Teko;
+        background-color: #add8e6;
+    }
+    
+    
+    .marl {
+        text-align: center;
+        justify-content: center;
+        margin-top: 15%;
+        font-size: 50px;
+        height: 30vh;
+    }
+    
+    .name {
+        font-size: 20px;
+        border-color: transparent;
+        border-bottom: 2px solid black;
+        border-style: ridge;
+        outline: none;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .password {
+        outline: none;
+        font-size: 20px;
+        border-color: transparent;
+        border-bottom: 2px solid black;
+        border-style: ridge;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    
+    .btn {
+        text-align: center;
+        font-size: 30px;
+        height: 9vh;
+        width: 100px;
+        border-radius: 5px;
+        background-color: #abb6ec;
+        transition: 0.5s ease-in;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: #ffb6c1;
+    }
+    
+    
+    
+    input[type=password]::-ms-reveal,
+    input[type=password]::-ms-clear {
+      display: none;
+    }
+}

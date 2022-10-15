@@ -14,7 +14,6 @@
     justify-content: center;
     margin-top: 15%;
     font-size: 50px;
-    height: 30vh;
 }
 
 .name {
@@ -76,7 +75,6 @@ and (max-device-width : 640px) {
         justify-content: center;
         margin-top: 15%;
         font-size: 50px;
-        height: 30vh;
     }
     
     .name {
@@ -103,8 +101,8 @@ and (max-device-width : 640px) {
     .btn {
         text-align: center;
         font-size: 30px;
-        height: 9vh;
-        width: 200px;
+        height:9vh;
+        width: 300px;
         border-radius: 5px;
         background-color: #abb6ec;
         transition: 0.5s ease-in;
@@ -124,7 +122,7 @@ and (max-device-width : 640px) {
 }
 
 @media only screen
-and (min-device-width : 640px) {
+and (min-device-width : 641px) {
     * {
         margin: 0%;
         padding: 0%;
@@ -139,7 +137,6 @@ and (min-device-width : 640px) {
         justify-content: center;
         margin-top: 15%;
         font-size: 50px;
-        height: 30vh;
     }
     
     .name {
@@ -166,7 +163,7 @@ and (min-device-width : 640px) {
     .btn {
         text-align: center;
         font-size: 30px;
-        height: 90px;
+        height:9vh;
         width: 100px;
         border-radius: 5px;
         background-color: #abb6ec;

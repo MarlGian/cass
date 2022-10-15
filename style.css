@@ -39,7 +39,7 @@
 
 .btn {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     height: 9vh;
     width: 8vw;
     border-radius: 5px;
@@ -78,7 +78,7 @@ and (max-device-width : 640px) {
     }
     
     .name {
-        font-size: 20px;
+        font-size: 50px;
         border-color: transparent;
         border-bottom: 2px solid black;
         border-style: ridge;
@@ -100,7 +100,7 @@ and (max-device-width : 640px) {
     
     .btn {
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
         height:9vh;
         width: 300px;
         border-radius: 5px;
@@ -162,7 +162,7 @@ and (min-device-width : 641px) {
     
     .btn {
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
         height:9vh;
         width: 100px;
         border-radius: 5px;

@@ -5,7 +5,7 @@ function marlgw() {
     console.log(marl2)
 
 
-    if (marl == "cassandra" && marl2 == "love123") {
+    if (marl == "cassandra" && marl2 == "iloveyou") {
         location.href = 'home.html'
     } else {
         alert("Wrong Username or Password");
